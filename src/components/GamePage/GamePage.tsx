@@ -1,10 +1,10 @@
-
+import './game-page.css'
 
 const GamePage = () => {
   return (
     <>
       <h2>GamePage</h2>
-      <section>
+      <section className='flex-container'>
         <img src="./images/chewbacca.jpeg" alt="Chewbacca" />
         <img src="./images/hansolo.jpg" alt="Han Solo" />
         <img src="./images/kenobi.jpg" alt="Obi Wan Kenobi" />
